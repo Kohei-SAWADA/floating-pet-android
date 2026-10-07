@@ -45,7 +45,7 @@ If the ⋮ menu only contains **All permissions**, go back from App permissions 
 
 ## File integrity
 
-Download the development APK from [GitHub releases](https://github.com/Kohei-SAWADA/floating-pet-android/releases). Verify the exact downloaded file with SHA-256: `6d4d43e3d6c03683280338cd46a113d6b77d737ed64fe6dd4926c846619f7e36`. APK and source ZIP hashes differ and change after code/package changes. The certificate fingerprint above is not the APK-file checksum.
+Download [`Floating-Pet-1.2.0-dev-English-default-debug.apk`](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk) from the [GitHub development prerelease](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev). Verify the exact downloaded file with SHA-256: `6d4d43e3d6c03683280338cd46a113d6b77d737ed64fe6dd4926c846619f7e36`. APK and source ZIP hashes differ and change after code/package changes. The certificate fingerprint above is not the APK-file checksum.
 
 ## 日本語の手順
 

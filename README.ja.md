@@ -8,7 +8,7 @@
 
 Floating Petは、端末内だけで動く小さなAndroid向けペットアプリです。標準のホームアプリを検出すると、落ち着いたペットを重ねて表示します。同梱のサンプル **Mofu（もふ）** を使うか、対応する透明PNGスプライトシートを読み込めます。
 
-**開発プレビュー：1.2.0-dev。** **debug署名の開発版APK**に対応するソースです。安定版・正式署名版・Google Play配布ではありません。APKの配布先は[GitHubの開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases)です。[導入手順](docs/INSTALL.md)、[検証状況](VERIFICATION.md)、[リリースチェックリスト](docs/RELEASE_CHECKLIST.md)をご確認ください。Android **8.0 / API 26以降**が必要です。
+**開発プレビュー：1.2.0-dev。** ソースと**debug署名の開発版APK**を公開しています。安定版・正式署名版・Google Play配布ではありません。APKの配布先は[GitHubの開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev)です。[導入手順](docs/INSTALL.md)、[検証状況](VERIFICATION.md)、[リリースチェックリスト](docs/RELEASE_CHECKLIST.md)をご確認ください。Android **8.0 / API 26以降**が必要です。
 
 サムネイルは**機能を説明するイメージ図**で、実機スクリーンショットではありません。下には実機の設定画面とMofuの表示成功例を掲載しています。追加撮影には[撮影ガイド](docs/SCREENSHOTS.md)を使えます。
 
@@ -29,7 +29,7 @@ Floating Petは、端末内だけで動く小さなAndroid向けペットアプ�
 
 ### ダウンロードまたはビルドして導入
 
-[GitHubの開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases)の `Floating-Pet-1.2.0-dev-English-default-debug.apk` を使うか、下の手順でdebug APKをビルドしてください。[導入ガイド](docs/INSTALL.md)では、旧版と署名が違う場合の注意も説明しています。信頼できる配布元のAPKだけを導入します。このdebugビルドは検証用で、安定版・正式な配布版ではありません。
+[GitHubの開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev)の [`Floating-Pet-1.2.0-dev-English-default-debug.apk`](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk) を使うか、下の手順でdebug APKをビルドしてください。[導入ガイド](docs/INSTALL.md)では、旧版と署名が違う場合の注意も説明しています。信頼できる配布元のAPKだけを導入します。このdebugビルドは検証用で、安定版・正式な配布版ではありません。
 
 ### 言語を選ぶ
 

@@ -106,4 +106,9 @@ Original source ZIP SHA-256: `26a99d7a3c3b2992ded49d59c3ca49753bd500c838a943d938
 - Matching metadata/assets and signatures do not prove a fully reproducible source-to-APK build. That comparison remains unverified
 - Publication-time offline source/resource/link/permission/wrapper/sample checks passed: **564 checks, 0 issues**
 - GitHub private vulnerability reporting was enabled and verified
-- Public GitHub commit, README/image rendering, prerelease asset download, and profile links will be checked after upload
+- Public source commit `25bd72c07e63a67e6775dac3aa3c1ebca659f020` and profile commit `0934f82c56cf37b6a6407318c739005ea790a44c` were verified through unauthenticated GitHub reads
+- [The development prerelease](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) is public, explicitly marked prerelease, and contains the supplied debug APK. An unauthenticated download returned 2,027,311 bytes and the exact authoritative APK SHA-256 above
+- Actual GitHub-served HTML for both READMEs contains correct reciprocal language links and the preserved restricted-settings/App info instructions. All five referenced README PNGs returned HTTP 200, decoded successfully, and matched the reviewed source bytes
+- The [public profile](https://github.com/Kohei-SAWADA) retains existing sections and shows usage_kun → Floating Pet → Toolbox, with a linked heading and centered 820px thumbnail. Its thumbnail returned HTTP 200 and matched the reviewed hero
+- Browser visual/layout inspection was not run because no CUA browser surface was available. HTML/asset validation is distinct from browser screenshot inspection
+- No GitHub Actions workflow is included; no CI build or CI tests were run

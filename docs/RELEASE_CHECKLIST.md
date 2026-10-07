@@ -14,12 +14,12 @@ The owner has explicitly authorized this public 1.2.0-dev development preview. T
 
 ## Source and build
 
-- [ ] Run `python3 scripts/check_repository.py` on the final tree
+- [x] Run `python3 scripts/check_repository.py` on the publication tree: 564 checks, 0 issues
 - [ ] Run `./gradlew --no-daemon --max-workers=1 clean assembleDebug testDebugUnitTest lintDebug`
 - [ ] Review all compiler/lint warnings; inspect the merged manifest and APK permissions
 - [ ] Keep Gradle distribution and wrapper checksums pinned and verified
 - [ ] Review direct and transitive dependency licenses/security before the final release
-- [ ] Ensure no signing keys, credentials, `.env`, `local.properties`, private screenshots, logs, or machine-specific paths enter Git history
+- [x] Review the publication tree/history for signing keys, credentials, `.env`, `local.properties`, private screenshots, logs, and machine-specific paths
 - [ ] Check `.gitignore` and `git ls-files` before each public push; ignore rules alone do not untrack files
 - [ ] Build and verify the actual signed release separately; a debug APK is not production-ready
 
@@ -42,13 +42,13 @@ The owner has explicitly authorized this public 1.2.0-dev development preview. T
 
 ## README and assets
 
-- [ ] Review both READMEs and their reciprocal language links
+- [x] Review both READMEs and their reciprocal language links
 - [ ] Add real-device screenshots following [SCREENSHOTS.md](SCREENSHOTS.md), with personal content removed
-- [ ] Keep the generated hero labeled as an illustrated preview
+- [x] Keep the generated hero labeled as an illustrated preview
 - [ ] Confirm the downloadable sample PNG is byte-identical to the bundled file
-- [ ] Check every relative link and all image paths after packaging
-- [ ] Replace pre-publication status only after the corresponding release exists; do not invent download URLs
-- [ ] Update [VERIFICATION.md](../VERIFICATION.md) with current passed/failed/not-run results
+- [x] Check relative links and verify the actual public README/profile image responses
+- [x] Verify the actual development prerelease and public APK download URLs
+- [x] Update [VERIFICATION.md](../VERIFICATION.md) with current passed/failed/not-run results
 
 ## 日本語の要点
 

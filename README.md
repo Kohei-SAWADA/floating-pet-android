@@ -8,7 +8,7 @@
 
 Floating Pet is a small, local-only Android companion. It shows a calm, draggable pet when your default home launcher is detected. Use the included **Mofu** sample, or import a compatible transparent PNG sprite sheet of your own.
 
-**Development preview: 1.2.0-dev.** This repository contains the source for a **debug-signed development APK**, not a stable, production-signed, or Play Store release. APK distribution is through [GitHub development releases](https://github.com/Kohei-SAWADA/floating-pet-android/releases); see [installation instructions](docs/INSTALL.md), [Verification](VERIFICATION.md), and the [release checklist](docs/RELEASE_CHECKLIST.md). Android **8.0 / API 26 or newer** is required.
+**Development preview: 1.2.0-dev.** The source and **debug-signed development APK** are publicly available. This is not a stable, production-signed, or Play Store release. Download the APK through [GitHub development releases](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev); see [installation instructions](docs/INSTALL.md), [Verification](VERIFICATION.md), and the [release checklist](docs/RELEASE_CHECKLIST.md). Android **8.0 / API 26 or newer** is required.
 
 The hero is an **illustrated preview**, not a device screenshot. Cropped real-device setup and successful Mofu-display screenshots are included below. See the [capture guide](docs/SCREENSHOTS.md) for additional examples.
 
@@ -29,7 +29,7 @@ This is an independent project, not affiliated with, endorsed by, or sponsored b
 
 ### Download or build and install
 
-Use the supplied `Floating-Pet-1.2.0-dev-English-default-debug.apk` from [GitHub development releases](https://github.com/Kohei-SAWADA/floating-pet-android/releases), or build a debug APK using the instructions below. Follow the [installation guide](docs/INSTALL.md), including the warning about differently signed older installations. Only install APKs from a source you trust. This debug build is for testing, not a stable or production release.
+Download [`Floating-Pet-1.2.0-dev-English-default-debug.apk`](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk) from [GitHub development releases](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev), or build a debug APK using the instructions below. Follow the [installation guide](docs/INSTALL.md), including the warning about differently signed older installations. Only install APKs from a source you trust. This debug build is for testing, not a stable or production release.
 
 ### Choose your language
 
