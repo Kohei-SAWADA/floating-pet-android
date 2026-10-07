@@ -1,0 +1,11 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.dot.floatingpet'
+    compileSdk 35
+    defaultConfig { applicationId 'com.dot.floatingpet'; minSdk 26; targetSdk 35; versionCode 6; versionName '1.2.0-dev' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    lint { abortOnError true }
+    // Keep both languages installed so in-app switching also works in a future app bundle.
+    bundle { language { enableSplit = false } }
+}
+dependencies { testImplementation 'junit:junit:4.13.2' }

@@ -1,0 +1,46 @@
+name: Bug report / 不具合報告
+description: Report reproducible behavior without private data
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste signing keys, tokens, personal screenshots, or full usage logs.
+        署名鍵・トークン・個人情報のある画像・利用履歴は貼り付けないでください。
+  - type: input
+    id: version
+    attributes:
+      label: App version / アプリのバージョン
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Android version and device family / Android版・機種
+      description: No serial number or other device identifier is needed
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Expected and actual behavior / 期待した動作・実際の動作
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: App language / アプリの言語
+      options:
+        - English
+        - 日本語
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Permission and power settings / 権限・省電力設定
+      description: Overlay, Usage Access, notifications, battery saver, animation settings

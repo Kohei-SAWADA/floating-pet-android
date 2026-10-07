@@ -1,0 +1,38 @@
+# Android / Gradle build output
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+# IDE and local machine state
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+signing.properties
+google-services.json
+# Distribution files belong in a reviewed release, not source control
+*.apk
+*.aab
+*.apks
+*.class
+*.log
+# Local checks and Python state
+__pycache__/
+.pytest_cache/
+.verification/
+local-tools/
+dist/

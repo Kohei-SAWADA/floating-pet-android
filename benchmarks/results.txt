@@ -1,0 +1,18 @@
+SYNTHETIC POLLING MODEL AND PURE-JAVA POLICY MICROBENCHMARK
+No Android device, UsageStats/Binder calls, UI, real query latency or battery measured.
+Timing model: constant simulated query duration = 5 ms; uniformly distributed transition phases.
+Wait is until the next query START; result delivery would add query execution and OS/event delays.
+100000 deterministic midpoint phases; simulated 60 s counts include the query at t=0, exclude t=60000.
+
+old fixed post-query 500 ms: interval=505 ms; wait mean=252.500 ms, p95=479.747 ms, sampled max=504.997 ms (upper bound 505 ms); rate=1.9802 queries/s; 60 s queries=119
+new fast: interval=200 ms; wait mean=100.000 ms, p95=189.999 ms, sampled max=199.999 ms (upper bound 200 ms); rate=5.0000 queries/s; 60 s queries=300
+new economy: interval=500 ms; wait mean=250.000 ms, p95=474.998 ms, sampled max=499.998 ms (upper bound 500 ms); rate=2.0000 queries/s; 60 s queries=120
+
+Slow/failure example delays (ms): 995, 1800; timely success recovers to 195.
+Screen-off no-reschedule and single-flight are Android caller responsibilities, not measured here.
+
+Host Java: 21.0.12.1; OS: Linux amd64
+Pure policy loop: 5,000,000 calls; System.nanoTime wall=18.559 ms (3.71 ns/call); checksum=2925117888
+Calling-thread CPU=18.576 ms (3.72 ns/call); simulated query cost is NOT CPU work.
+Microbenchmark includes loop/input arithmetic and is JIT/host-sensitive; not JMH, device performance or power evidence.
+Fast mode requests about 2.5x economy's normal query rate; real device energy cost remains unmeasured.
