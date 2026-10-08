@@ -1,6 +1,31 @@
+# Floating Pet for Android
+
 <p align="right"><strong>English</strong> | <a href="README.ja.md">日本語</a></p>
 
-# Floating Pet for Android
+**A Cute Floating Pet for Your Android Home Screen.**
+
+Bring Mofu to your detected Android home screen: drag your companion, choose its size, or import a compatible transparent PNG sprite sheet.
+
+**[Download development APK (Android 8.0+)](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [Development release](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [Permissions and installation](docs/INSTALL.md) · [View demo](#demo)
+
+This is a debug-signed development preview, not a stable or Play Store release. Android 8.0 / API 26+ and Android display-over-other-apps / Usage Access setup are required.
+
+## Demo
+
+[Watch the real Android demo (MP4, 23 seconds, silent)](assets/promo/floating-pet-demo.mp4)
+
+![Real Android recording: Mofu on the home screen, dragging, and size adjustment](assets/promo/floating-pet-demo.gif)
+
+Edited from user-supplied device recordings: Mofu on the home screen, dragging, and the size control. Notification panels and private app content are excluded; the optional ChatGPT shortcut is not demonstrated. The existing [Mofu home-screen example](docs/screenshots/home-screen-mofu.png) is also a real-device capture. The hero below remains an illustrated preview.
+
+## Main features
+
+- Draggable floating Mofu, 48–240 dp size controls, and compatible local sprite import.
+- Gentle idle animation and directional poses while dragging.
+- Optional tap shortcut to the separately installed official ChatGPT Android app.
+- Local-only operation with no Internet permission; home detection has device-dependent limits.
+
+[Full features](#at-a-glance) · [Permissions and privacy](#permissions-and-privacy) · [License status](LICENSE-STATUS.md)
 
 <p align="center"><img src="docs/assets/floating-pet-hero.png" alt="Floating Pet: a fluffy companion on an illustrated Android home screen. Drag, resize, and tap to open ChatGPT." width="960"></p>
 

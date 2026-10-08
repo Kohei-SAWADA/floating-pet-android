@@ -1,6 +1,31 @@
+# Floating Pet for Android
+
 <p align="right"><a href="README.md">English</a> | <strong>日本語</strong></p>
 
-# Floating Pet for Android
+**Androidのホーム画面に、かわいいフローティングペット。**
+
+検出したAndroidのホーム画面にMofuを表示。ドラッグで移動、サイズ調整、対応する透明PNGスプライトシートの読み込みができます。
+
+**[開発版APKをダウンロード（Android 8.0以降）](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [権限と導入手順](docs/INSTALL.md) · [デモを見る](#デモ)
+
+debug署名の開発プレビューで、安定版・Google Play版ではありません。Android 8.0 / API 26以降と、「他のアプリの上に表示」・使用状況へのアクセスの設定が必要です。
+
+## デモ
+
+[Android実機の操作デモを見る（MP4、23秒、無音）](assets/promo/floating-pet-demo.mp4)
+
+![Android実機でMofuをホーム表示し、ドラッグとサイズ調整をする録画](assets/promo/floating-pet-demo.gif)
+
+ユーザー提供の実機録画から、Mofuのホーム表示、ドラッグ、サイズ調整を編集しました。通知パネルと個人情報があるアプリ画面は除外し、任意のChatGPT起動ショートカットはこの動画では実演していません。既存の[Mofuのホーム画面表示例](docs/screenshots/home-screen-mofu.png)も実機の記録です。下のサムネイルは引き続きイメージ図です。
+
+## 主な機能
+
+- Mofuのドラッグ移動、48〜240 dpのサイズ調整、対応するローカル素材の読み込み。
+- 待機中の穏やかなアニメーションと、ドラッグ方向に応じたポーズ。
+- 別途インストール済みの公式ChatGPT Androidアプリを開く任意のタップ操作。
+- Internet権限なしの端末内動作。ホーム判定には端末に依存する制限があります。
+
+[詳しい機能](#できること) · [権限とプライバシー](#権限とプライバシー) · [ライセンス状況](LICENSE-STATUS.md)
 
 <p align="center"><img src="docs/assets/floating-pet-hero.png" alt="Floating Pet。Androidのホーム画面に小さなもふもふペットを表示し、ドラッグ・サイズ調整・タップでChatGPTを開けるアプリのイメージ図" width="960"></p>
 
