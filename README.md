@@ -35,7 +35,7 @@ Download [`Floating-Pet-1.2.0-dev-English-default-debug.apk`](https://github.com
 
 This build opens in English on first launch, including on a Japanese-language phone. At the top of the settings screen, choose **English**, **日本語**, or **Use device language**. Changing language stops the current pet; tap **Show pet** afterwards. On Android 13+, the same choice is reflected in Android Settings → Apps → Floating Pet → Language. Older supported Android versions use the in-app buttons. An existing language selected in Android Settings is respected.
 
-### First launch
+## First launch
 
 1. Open **Floating Pet** and select **Use sample pet**, or **Choose spritesheet.png** for your own artwork.
 2. Open **Open Android display permission** and allow Floating Pet to display over other apps.
@@ -74,7 +74,8 @@ Only continue for an APK/developer you trust and a permission risk you accept. K
 
 <p align="center">
   <img src="docs/screenshots/home-screen-mofu.png" alt="User-confirmed result: the original Mofu sample is visible on a real Android home screen beside the Floating Pet app icon" width="600">
-  <br><em>The user confirmed success and supplied this home-screen screenshot on 2026-10-07.</em>
+  <br><em>The home-screen screenshot.
+</em>
 </p>
 
 This confirms one user's successful display of Mofu, not testing across all phones or every interaction. The App info menu itself was not captured; the numbered route follows Google's guide. Device model and Android version were not confirmed.
@@ -89,12 +90,13 @@ The new **Use sample pet** button requires a build of this source package. Repla
 
 ## Permissions and privacy
 
-| Access | Why it is used | Control |
-| --- | --- | --- |
-| Display over other apps | Draw the draggable pet | Android overlay settings |
-| Usage Access | Check whether the default home launcher is active | Android Usage Access settings |
-| Foreground service | Keep the explicitly started pet running | Persistent notification and Stop button |
-| Notifications | Provide hide/show/stop controls | Android notification permission/settings |
+
+| Access                  | Why it is used                                    | Control                                  |
+| ----------------------- | ------------------------------------------------- | ---------------------------------------- |
+| Display over other apps | Draw the draggable pet                            | Android overlay settings                 |
+| Usage Access            | Check whether the default home launcher is active | Android Usage Access settings            |
+| Foreground service      | Keep the explicitly started pet running           | Persistent notification and Stop button  |
+| Notifications           | Provide hide/show/stop controls                   | Android notification permission/settings |
 
 No Internet, storage-read, accessibility, microphone, camera, location, or contacts permission is requested. Your selected PNG is copied into app-private storage. Preferences store only the pet's size, position, and behavior settings. Usage history is not saved or uploaded. Opening ChatGPT leaves this app; ChatGPT's own privacy terms then apply.
 
@@ -110,10 +112,11 @@ Animations respect the app setting, Android animation settings, and battery save
 
 ## Bring your own pet
 
-| Layout | Exact PNG size | Grid | Used frames |
-| --- | --- | --- | --- |
-| v1 | 1536 × 1872 px | 8 columns × 9 rows | 57 |
-| v2 | 1536 × 2288 px | 8 columns × 11 rows | 73 |
+
+| Layout | Exact PNG size  | Grid                 | Used frames |
+| ------ | --------------- | -------------------- | ----------- |
+| v1     | 1536 × 1872 px | 8 columns × 9 rows  | 57          |
+| v2     | 1536 × 2288 px | 8 columns × 11 rows | 73          |
 
 - Each cell is **192 × 208 px**, transparent background, at most **12 MiB** per PNG
 - Shared rows: idle, running-right, running-left, waving, jumping, failed, waiting, running, review
