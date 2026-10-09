@@ -6,17 +6,15 @@
 
 検出したAndroidのホーム画面にMofuを表示。ドラッグで移動、サイズ調整、対応する透明PNGスプライトシートの読み込みができます。
 
-**[開発版APKをダウンロード（Android 8.0以降）](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [権限と導入手順](docs/INSTALL.md) · [デモを見る](#デモ)
+**[開発版APKをダウンロード（Android 8.0以降）](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [開発版リリース](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [権限と導入手順](docs/INSTALL.md) · [GIFデモ](#デモ)
 
 debug署名の開発プレビューで、安定版・Google Play版ではありません。Android 8.0 / API 26以降と、「他のアプリの上に表示」・使用状況へのアクセスの設定が必要です。
 
 ## デモ
 
-[Android実機の操作デモを見る（MP4、23秒、無音）](assets/promo/floating-pet-demo.mp4)
-
 ![Android実機でMofuをホーム表示し、ドラッグとサイズ調整をする録画](assets/promo/floating-pet-demo.gif)
 
-ユーザー提供の実機録画から、Mofuのホーム表示、ドラッグ、サイズ調整を編集しました。通知パネルと個人情報があるアプリ画面は除外し、任意のChatGPT起動ショートカットはこの動画では実演していません。既存の[Mofuのホーム画面表示例](docs/screenshots/home-screen-mofu.png)も実機の記録です。下のサムネイルは引き続きイメージ図です。
+ユーザー提供の実機録画から、Mofuのホーム表示、ドラッグ、サイズ調整を編集しました。通知パネルと個人情報があるアプリ画面は除外し、任意のChatGPT起動ショートカットはこのデモでは実演していません。既存の[Mofuのホーム画面表示例](docs/screenshots/home-screen-mofu.png)も実機の記録です。下のサムネイルは引き続きイメージ図です。
 
 ## 主な機能
 

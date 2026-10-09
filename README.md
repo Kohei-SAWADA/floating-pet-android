@@ -6,13 +6,11 @@
 
 Bring Mofu to your detected Android home screen: drag your companion, choose its size, or import a compatible transparent PNG sprite sheet.
 
-**[Download development APK (Android 8.0+)](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [Development release](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [Permissions and installation](docs/INSTALL.md) · [View demo](#demo)
+**[Download development APK (Android 8.0+)](https://github.com/Kohei-SAWADA/floating-pet-android/releases/download/v1.2.0-dev/Floating-Pet-1.2.0-dev-English-default-debug.apk)** · [Development release](https://github.com/Kohei-SAWADA/floating-pet-android/releases/tag/v1.2.0-dev) · [Permissions and installation](docs/INSTALL.md) · [GIF demo](#demo)
 
 This is a debug-signed development preview, not a stable or Play Store release. Android 8.0 / API 26+ and Android display-over-other-apps / Usage Access setup are required.
 
 ## Demo
-
-[Watch the real Android demo (MP4, 23 seconds, silent)](assets/promo/floating-pet-demo.mp4)
 
 ![Real Android recording: Mofu on the home screen, dragging, and size adjustment](assets/promo/floating-pet-demo.gif)
 
